@@ -28,7 +28,7 @@ public class EventRegist {
 		//String uname = s.nextLine();//개행 문자, 공백을 인식하여 출력한다
 		System.out.print("이메일 : ");
 		String email = s.next();//개행 문자, 공백 무시하고 출력한다
-		//String uname = s.nextLine();//개행 문자, 공백을 인식하여 출력한다
+		 //String uname = s.nextLine();//개행 문자, 공백을 인식하여 출력한다
 		//메소드 설정
 		connectDB();
 		registUser(uname, email);
